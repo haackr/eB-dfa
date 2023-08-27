@@ -1,0 +1,25 @@
+{
+  "name": "ebdfa",
+  "displayName": "ebdfa",
+  "description": "e-Builder process data field assignment syntax support",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "ebdfa",
+      "aliases": ["ebdfa", "ebdfa"],
+      "extensions": ["ebdfa"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "ebdfa",
+      "scopeName": "source.ebdfa",
+      "path": "./syntaxes/ebdfa.tmLanguage.json"
+    }]
+  }
+}
